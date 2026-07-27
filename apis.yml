@@ -1,8 +1,27 @@
 aid: inauth-american-express
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inauth-american-express.png
 name: InAuth (American Express)
-description: 'InAuth (American Express) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'InAuth is a mobile-first digital device intelligence and authentication
+  company acquired by American Express in 2018 and now operated within American Express''s
+  fraud-management portfolio; its technology also powers Accertify Device Intelligence.
+  The InAuth Security Platform provides persistent device identification (device fingerprinting),
+  malware and criminal-tool detection, rooted/jailbroken-device detection, location
+  and behavioral risk analysis, and transaction risk scoring, delivered primarily
+  through native iOS and Android SDKs embedded in merchant and financial-institution
+  apps. Access is enterprise-gated through the Amex for Developers portal; there is
+  no public self-serve REST API, OpenAPI specification, public package-registry distribution,
+  or InAuth-specific public code repository for the product line.'
 url: https://raw.githubusercontent.com/api-evangelist/inauth-american-express/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai Infrastructure
+- Fraud Prevention
+- Device Intelligence
+- Authentication
+- Security
+- Mobile SDK
+- Risk Management
 apis: []
+common:
+- type: DeveloperPortal
+  name: InAuth Product Overview (Amex for Developers)
+  url: https://developer.americanexpress.com/products/inauth/overview
+- type: GitHubOrganization
+  name: American Express on GitHub
+  url: https://github.com/americanexpress
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/inauth-american-express-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

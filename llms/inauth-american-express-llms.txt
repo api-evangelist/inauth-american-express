@@ -1,0 +1,13 @@
+# InAuth (American Express)
+
+> InAuth is a mobile-first digital device intelligence and authentication company acquired by American Express in 2018 and now operated within American Express's fraud-management portfolio. Its technology also powers Accertify Device Intelligence. The InAuth Security Platform delivers persistent device identification, malware and criminal-tool detection, rooted/jailbroken-device detection, and transaction risk analysis, primarily through native iOS and Android SDKs embedded in merchant and financial-institution apps. Access is enterprise-gated through the Amex for Developers portal; there is no public self-serve REST API, OpenAPI specification, package-registry distribution, or InAuth-specific public code repository.
+
+## Provider
+- InAuth product overview (Amex for Developers): https://developer.americanexpress.com/products/inauth/overview
+- Amex for Developers portal: https://developer.americanexpress.com/
+- American Express open-source org: https://github.com/americanexpress
+
+## Notes
+- Capabilities: device fingerprinting, malware/root-jailbreak detection, criminal-tool detection, location and behavioral risk signals, transaction risk scoring.
+- Delivery: native mobile SDKs (iOS/Android) provisioned to enterprise customers under contract; not published to public package registries.
+- Related: Accertify (American Express subsidiary) — Device Intelligence powered by InAuth.
