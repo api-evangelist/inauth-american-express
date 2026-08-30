@@ -45,7 +45,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Fraud Prevention
 - Device Intelligence
 - Authentication
@@ -63,6 +63,11 @@ tags_raw:
 - Risk Management
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/american-express/
+  name: American Express
+  x-relationship: acquired
+  x-evidence: "InAuth is a mobile-first digital device intelligence and authentication company acquired by American Express in 2018 and now operated within American Express's fraud-management portfolio; its technology also powers Accertify Device Intellig"
 - type: DeveloperPortal
   name: InAuth Product Overview (Amex for Developers)
   url: https://developer.americanexpress.com/products/inauth/overview
