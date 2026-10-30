@@ -64,6 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-InAuth (American Express) is a company surfaced as a portfolio company of bain-capital-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure. This profile is a lead awaiting the enrichment pipeline.
+InAuth is a mobile-first digital device intelligence and authentication company acquired by American Express in 2018 and now operated within American Express's fraud-management portfolio; its technology also powers Accertify Device Intelligence. The InAuth Security Platform provides persistent device identification (device fingerprinting), malware and criminal-tool detection, rooted/jailbroken-device detection, location and behavioral risk analysis, and transaction risk scoring, delivered primarily through native iOS and Android SDKs embedded in merchant and financial-institution apps. Access is enterprise-gated through the Amex for Developers portal; there is no public self-serve REST API, OpenAPI specification, public package-registry distribution, or InAuth-specific public code repository for the product line.
 
-Backed by: bain-capital-ventures
+**Areas:** Company · AI Infrastructure · Fraud Prevention · Device Intelligence · Authentication · Security · Mobile SDK · Risk Management
+
+## InAuth (American Express) on APIs.io
+
+Everything profiled for InAuth (American Express) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/inauth-american-express/](https://apis.io/providers/inauth-american-express/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/americanexpress)
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for InAuth (American Express): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/inauth-american-express/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
